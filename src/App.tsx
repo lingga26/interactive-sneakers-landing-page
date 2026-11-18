@@ -38,14 +38,14 @@ const COLORWAY_META: Record<
     name: 'Black White',
     short: 'Hitam Putih',
     dot: '#e4e4e7',
-    src: '/assets/aistudio/image_82e62bae.png',
+    src: '/interactive-sneakers-landing-page/assets/aistudio/image_82e62bae.png',
     alt: 'Sepatu sneakers Aerostreet Maximo varian Black White dengan kombinasi mesh putih, mudguard hitam, dan aksen tumit abu-abu',
   },
   'all-black': {
     name: 'All Black',
     short: 'Hitam Pekat',
     dot: '#18181b',
-    src: '/assets/aistudio/image_36b3b630.png',
+    src: '/interactive-sneakers-landing-page/assets/aistudio/image_36b3b630.png',
     alt: 'Sepatu sneakers Aerostreet Maximo varian All Black berbahan mesh breathable dan kulit sintetis hitam pekat',
   },
 };
@@ -68,28 +68,28 @@ const SHOWCASE_STAGES: {
   sub: string;
 }[] = [
   {
-    src: '/assets/aistudio/image_82e62bae.png',
+    src: '/interactive-sneakers-landing-page/assets/aistudio/image_82e62bae.png',
     alt: 'Tampak samping penuh Aerostreet Maximo Black White di panggung studio',
     crop: 'full',
     title: 'Maximo Black White',
     sub: 'Siluet kontras dengan mudguard hitam dan aksen tumit abu-abu',
   },
   {
-    src: '/assets/aistudio/image_36b3b630.png',
+    src: '/interactive-sneakers-landing-page/assets/aistudio/image_36b3b630.png',
     alt: 'Tampak samping penuh Aerostreet Maximo All Black',
     crop: 'full',
     title: 'Maximo All Black',
     sub: 'Tampilan monokrom serba hitam untuk mobilitas harian',
   },
   {
-    src: '/assets/aistudio/image_82e62bae.png',
+    src: '/interactive-sneakers-landing-page/assets/aistudio/image_82e62bae.png',
     alt: 'Detail midsole tebal Aerostreet Maximo dengan emboss AEROSTREET dan konstruksi tanpa lem',
     crop: 'sole',
     title: 'Shoes Injection Mould',
     sub: 'Sol dicairkan dan menyatu langsung dengan upper tanpa proses lem',
   },
   {
-    src: '/assets/aistudio/image_36b3b630.png',
+    src: '/interactive-sneakers-landing-page/assets/aistudio/image_36b3b630.png',
     alt: 'Detail material mesh breathable dan panel kulit sintetis dengan jahitan zigzag',
     crop: 'upper',
     title: 'Mesh & Kulit Sintetis',
@@ -879,7 +879,7 @@ export default function App() {
             <div className="bento-grid" ref={bentoGridRef}>
               <article className="bento-tile bento-tall reveal-tile">
                 <img
-                  src="/assets/aistudio/image_82e62bae.png"
+                  src="/interactive-sneakers-landing-page/assets/aistudio/image_82e62bae.png"
                   alt="Detail sol cetak Injection Mould Aerostreet Maximo Black White"
                   className="bento-img bento-img-sole"
                   referrerPolicy="no-referrer"
@@ -895,7 +895,7 @@ export default function App() {
 
               <article className="bento-tile bento-top reveal-tile">
                 <img
-                  src="/assets/aistudio/image_36b3b630.png"
+                  src="/interactive-sneakers-landing-page/assets/aistudio/image_36b3b630.png"
                   alt="Detail jaring mesh dan panel kulit sintetis Aerostreet Maximo All Black"
                   className="bento-img bento-img-upper"
                   referrerPolicy="no-referrer"
